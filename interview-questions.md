@@ -34,7 +34,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer: a built in method is an action that has been used over enough times to be considered valuable to store to a command within a coding language. 
 
-  Researched answer:built in methods are common actions that javascript has stored premade functions for datatype string
+  Researched answer:built in methods are common actions that javascript has stored premade functions for specific datatypes 
 
 
 
