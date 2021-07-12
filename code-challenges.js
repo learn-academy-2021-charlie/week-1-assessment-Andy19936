@@ -16,7 +16,7 @@ var temp3 = 212
 
 
 
-s// assign a function called tempChecker
+// assign a function called tempChecker
 // use a conditional statement containing statements for the 3 conditions that return the strings above for various inputs
 // create a catch all else statement for invalid data types 
 // remember to type condionals from either top to bottom or bottom to top in regards to conditional amounts
@@ -65,7 +65,7 @@ console.log(masher(myNumbers1,myNumbers2))
 
 
 // --------------------3) Create a function that takes in a string of a single word and returns the string with all letters reversed.
-// Use the test variables provided below. Expected output: "ovarb", "eilrahc"
+// Use the test variables provided below. Expected output: "ovarb", "eilrahc"    
 
 // name my function reverse
 // use the built in method .reverse
@@ -74,7 +74,7 @@ console.log(masher(myNumbers1,myNumbers2))
 
 var myString1 = "bravo"
 var myString2 = "charlie"
-
+ 
  const reverse = (string) => {
      return   string.split ('').reverse().join('')
  }
@@ -143,14 +143,11 @@ const mathify2 = (number1, number2) =>{
        return number2 - number1
    }else if(number1 == number2){
        return "your numbers are equal to each other and are wasting mathify's time!"
-   } else if(typeof number1 !== number ||  typeof number2 !== number){
-       return "your input is not a number"
-   }
-    else { 
+   } else { 
        return "please enter a valid entry"
    }
 
 }
-console.log(mathify2(1, 3))
-console.log(mathify2("l", 4))
+console.log(mathify2(numberExampleRefactor1, numberExampleRefactor2))
+console.log(mathify2(numberExampleRefactor3, numberExampleRefactor4))
 
